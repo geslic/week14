@@ -28,4 +28,14 @@ public class Employee {
 	@ToString.Exclude
 	private PetStore petStore = new PetStore();
 
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return employeeFirstName;
+	}
+
+	public Object getRole() {
+		// TODO Auto-generated method stub
+		return employeeJobTitle;
+	}
+	
 }
